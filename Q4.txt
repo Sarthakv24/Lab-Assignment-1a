@@ -1,0 +1,37 @@
+This project simulates a metro system with functionalities for user
+management and journey
+planning. It uses basic data structures and algorithms to handle user
+operations and find
+routes between stations.
+Workflow
+Initialization and User Interaction:
+The program starts by displaying a welcome message and metro system
+map.
+Users are prompted to either log in or sign up.
+User Management:
+If logging in, users provide credentials, and the system verifies them.
+If signing up, the system generates a new user ID and card number, then
+stores this
+information.
+Journey Planning:
+Users can query routes between stations.
+The program offers multiple route options based on:
+All possible paths.
+Path with the maximum number of stations.
+Path with the minimum number of stations.
+Shortest distance.
+Path crossing a specified station.
+Fare Calculation:
+The program calculates the fare based on the distance between stations.
+It checks the user&#39;s balance and prompts for an update if necessary.
+Display Results:
+The system displays the selected path, distance, estimated travel time, and
+fare.
+Updates the user&#39;s balance after fare deduction.
+Summary
+This metro system project integrates user management with journey
+planning functionalities
+using graph algorithms. It demonstrates the use of C++ standard libraries,
+file handling, and
+fundamental algorithms to create a simple yet functional metro simulation
+system.
